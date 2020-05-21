@@ -32,5 +32,7 @@ int main(int argc, char *argv[]){
 		printf("统计单词数量：%d\n",count_words(argv[2]));
 	else if(strcmp(argv[1],"-c")==0)
 		printf("统计字符数量：%d\n",count_chars(argv[2]));
+	else
+		printf("输入参数有误")
 	return 0;
 }
